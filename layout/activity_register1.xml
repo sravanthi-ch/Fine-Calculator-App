@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    tools:context="com.example.sravanthi.app1.register1">
+
+    <EditText
+        android:id="@+id/editText7"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="5dp"
+        android:text="@string/editText7"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:ems="10"
+        android:inputType="number"
+        android:text="roll no"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="195dp"
+        android:layout_height="49dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="5dp"
+        android:text="password"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="SUBMIT"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>
+
